@@ -1,4 +1,27 @@
 
+
+_____________________________________________________________
+
+Python AI Homework_#2
+
+#NumPyHomework
+
+## Task 1
+- Creation of an array of 20 numbers
+- Search for elements above the threshold
+- Maximum 1st position
+- Sortuvannya
+
+## Task 2
+- Creation of a 5x5 matrix
+- Head diagonal
+- Sum diagonals
+- Reset elements to zero more diagonally
+
+## Start
+pip install -r requirements.txt
+python numpy_homework/task1.py
+python numpy_homework/task2.py
 _____________________________________________________________
 
 Python AI Homework_#1

@@ -1,5 +1,65 @@
 
 
+
+_____________________________________________________________
+
+# Python AI Homework #3
+
+## NumPy Homework
+
+## Task 1
+
+* Creation of an array of 20 numbers
+* Search for elements above the threshold
+* Finding maximum value and its first position
+* Sorting the array in descending order
+
+
+## Task 2
+
+* Creation of a 5x5 matrix
+* Extracting the main diagonal
+* Calculating the sum of diagonal elements
+* Resetting elements above the main diagonal to zero
+
+
+## Task 3
+
+* Creating a sequence within a given range
+* Transforming into a 6x5 matrix
+* Calculating row sums
+* Finding column maximums
+
+
+## Task 4
+
+* Creating an array with negative values
+* Extracting negative elements
+* Replacing negatives with zeros
+* Counting zero elements
+
+
+## Task 5
+
+Creating two arrays with different ranges
+Merging arrays
+Element-wise sum and difference
+
+
+## Task 6
+
+* Creating a matrix with increasing numbers
+* Reshaping the matrix
+* Finding min and max per row
+* Calculating total sum
+
+Start:
+
+bash
+
+pip install -r requirements.txt
+python main.py
+
 _____________________________________________________________
 
 Python AI Homework_#2

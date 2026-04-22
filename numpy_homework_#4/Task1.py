@@ -9,18 +9,14 @@ data_books = {
 
 df_books = pd.DataFrame(data_books)
 
-# Весь DataFrame
 print("Весь DataFrame:")
 print(df_books)
 
-# Середня ціна
 avg_price = df_books["Ціна"].mean()
 print("\nСередня ціна:", avg_price)
 
-# Книги після 2015
 print("\nКниги після 2015 року:")
 print(df_books[df_books["Рік видання"] > 2015])
 
-# Сортування за ціною
 print("\nСортування за ціною (зростання):")
 print(df_books.sort_values(by="Ціна"))

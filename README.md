@@ -8,14 +8,6 @@ NumPy Homework
 
 Simple project with NumPy tasks on arrays and matrices.
 
-Install:
-
-pip install -r requirements.txt
-
-Run:
-
-python main.py
-
 Tasks:
 Task 1: Array operations (max, filter, sorting)
 Task 2: Matrix (diagonal, sum, zeroing)
@@ -23,6 +15,14 @@ Task 3: Reshape + row/column calculations
 Task 4: Negative values handling
 Task 5: Array merge, sum, difference
 Task 6: Matrix reshape, min/max, total
+
+Install:
+
+pip install -r requirements.txt
+
+Run:
+
+python main.py
 
 Structure:
 

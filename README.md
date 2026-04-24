@@ -3,6 +3,58 @@
 
 _____________________________________________________________
 
+Python AI Homework #5
+Matplotlib Homework
+
+Task 1
+Creating a list of months
+Creating two datasets: Plan and Fact
+Plotting both lines on one graph
+Adding axis labels and title
+Adding a legend
+
+Task 2
+Creating an array of 100 age values
+Plotting a histogram of distribution
+Calculating and displaying mean value
+Adding axis labels and title
+
+Task 3
+Creating three groups of exam results
+Plotting a boxplot for comparison
+Labeling groups on X-axis
+Adding axis labels and title
+
+Task 4
+Creating 7 days data
+Creating temperature and humidity datasets
+Plotting both lines on one graph
+Rotating X-axis labels
+Adding legend, labels, and title
+
+Task 5
+Creating hourly server load data (0–23)
+Plotting load as a line graph
+Filling area under the curve
+Adding grid, labels, and title
+
+Task 6
+Creating four product metrics datasets
+Building a 2x2 subplot grid
+Plotting each metric separately
+Adding titles for each subplot
+Adding overall figure title
+
+Start:
+
+bash
+
+pip install matplotlib numpy
+jupyter notebook
+
+
+_____________________________________________________________
+
 Python AI Homework #4
 NumPy Homework
 

@@ -3,6 +3,30 @@
 
 _____________________________________________________________
 
+Python AI Homework #6
+Statistics Homework (Pandas, NumPy, Matplotlib)
+
+Task 1
+Creating a dataset for 30 days
+Generating columns: date, users, sessions, revenue
+Displaying the full dataset
+Calculating correlation matrix for users, sessions, revenue
+Plotting scatter plot: users vs sessions
+Plotting scatter plot: users vs revenue
+Plotting scatter plot: sessions vs revenue
+Plotting revenue over time (line chart)
+Adding labels, titles, and grid
+
+Start:
+
+bash
+
+pip install pandas numpy matplotlib
+python main.py
+
+
+_____________________________________________________________
+
 Python AI Homework #5
 Matplotlib Homework
 

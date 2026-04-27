@@ -4,6 +4,7 @@
 _____________________________________________________________
 
 Python AI Homework #7 (continue)
+
 Statistics Homework (Pandas, NumPy, Matplotlib)
 
 Task 1
@@ -56,6 +57,7 @@ python main.py
 _____________________________________________________________
 
 Python AI Homework #6
+
 Statistics Homework (Pandas, NumPy, Matplotlib)
 
 Task 1

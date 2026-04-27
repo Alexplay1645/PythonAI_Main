@@ -3,6 +3,58 @@
 
 _____________________________________________________________
 
+Python AI Homework #7 (continue)
+Statistics Homework (Pandas, NumPy, Matplotlib)
+
+Task 1
+Creating a dataset for 30 days
+Generating columns: date, users, sessions, revenue
+Displaying the full dataset
+Calculating correlation matrix for users, sessions, revenue
+Plotting scatter plot: users vs sessions
+Plotting scatter plot: users vs revenue
+Plotting scatter plot: sessions vs revenue
+Plotting revenue over time (line chart)
+Adding labels, titles, and grid
+
+Task 2
+Creating A/B test dataset with groups A and B
+Generating converted column (0/1) with at least 100 observations per group
+Calculating conversion rate for each group
+Calculating absolute difference between groups
+Calculating relative change
+Computing 95% confidence intervals for conversion
+Plotting bar chart with confidence intervals
+Displaying all calculated values
+
+Task 3
+Generating a population of at least 50,000 observations from a skewed distribution
+Creating multiple samples of fixed size n
+Calculating sample means for each sample
+Storing all sample means
+Plotting histogram of sample means
+Repeating for at least two different sample sizes
+Displaying mean and standard deviation of sample means
+
+Task 4
+Creating a dataset of sales for 90 days
+Generating columns: date and sales
+Calculating rolling mean (moving average)
+Calculating rolling standard deviation
+Displaying first rows of the dataset
+Plotting sales and rolling mean on one chart
+Plotting rolling standard deviation separately
+
+Start:
+
+bash
+
+pip install pandas numpy matplotlib
+python main.py
+
+
+_____________________________________________________________
+
 Python AI Homework #6
 Statistics Homework (Pandas, NumPy, Matplotlib)
 

@@ -3,6 +3,49 @@
 
 _____________________________________________________________
 
+Python AI Homework #8
+
+Statistics Homework (Pandas, NumPy, Matplotlib)
+
+Task 1
+Working with data distributions  
+Generating a dataset with random values  
+Calculating mean, median, and standard deviation  
+Calculating percentiles (25%, 50%, 75%)  
+Plotting histogram of the distribution  
+Adding titles, labels, and grid  
+
+Task 2
+Data cleaning and preprocessing  
+Creating dataset with missing values  
+Handling missing values (fill or drop)  
+Detecting outliers using IQR  
+Filtering outliers  
+Displaying cleaned dataset  
+
+Task 3
+Correlation and heatmap  
+Creating dataset with multiple features  
+Calculating correlation matrix  
+Visualizing correlation using heatmap  
+Analyzing relationships between variables  
+
+Task 4
+Time series analysis  
+Creating time series dataset  
+Generating trend and noise  
+Calculating moving average  
+Plotting original data and moving average  
+Analyzing trend behavior  
+
+Start:
+
+pip install -U scikit-learn
+pip install pandas numpy matplotlib  
+python main.py
+
+_____________________________________________________________
+
 Python AI Homework #7 (continue)
 
 Statistics Homework (Pandas, NumPy, Matplotlib)

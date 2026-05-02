@@ -1,6 +1,36 @@
 
 
 
+
+_____________________________________________________________
+
+Python AI Homework #9
+
+Multiple Regression & Data Preprocessing (Scikit-learn, Pandas, NumPy)
+
+Task 1 Multiple Linear Regression
+
+Generating dataset using make_regression
+Splitting data into train/test (80/20)
+Training LinearRegression model
+Predicting target values
+Calculating R² score
+Displaying model coefficients in table
+
+Task 2 Feature Scaling Impact
+
+Training model without scaling
+Applying StandardScaler
+Training model with scaling
+Calculating R² for both cases
+Comparing results in table
+
+Start
+
+pip install -U scikit-learn
+pip install pandas numpy matplotlib
+python main.py
+
 _____________________________________________________________
 
 Python AI Homework #8

@@ -11,36 +11,55 @@ Multiple Regression & Data Preprocessing (Scikit-learn, Pandas, NumPy)
 Task 1 Multiple Linear Regression
 
 Generating dataset using make_regression
+
 Splitting data into train/test (80/20)
+
 Training LinearRegression model
+
 Predicting target values
+
 Calculating R² score
+
 Displaying model coefficients in table
 
 Task 2 Feature Scaling Impact
 
 Training model without scaling
+
 Applying StandardScaler
+
 Training model with scaling
+
 Calculating R² for both cases
+
 Comparing results in table
 
 Task 3 Handling Missing Values
 
 Generating dataset using make_regression
+
 Introducing missing values (np.nan)
+
 Applying SimpleImputer (mean strategy)
+
 Training LinearRegression model
+
 Calculating R² score
+
 Comparing results before and after imputation
 
 Task 4 Cross-Validation
 
 Generating dataset with noise (make_regression)
+
 Applying StandardScaler
+
 Training LinearRegression model
+
 Using cross_val_score (k=5)
+
 Calculating mean R²
+
 Calculating standard deviation
 
 Start

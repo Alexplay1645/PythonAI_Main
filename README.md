@@ -8,7 +8,7 @@ Python AI Homework #10
 
 Multiple Regression & Data Preprocessing (Scikit-learn, Pandas, NumPy)
 
-Task 1 Multiple Linear Regression
+  *Task 1 Multiple Linear Regression
 
 Generating dataset using make_regression
 
@@ -23,7 +23,7 @@ Calculating R² score
 Displaying model coefficients in table
 
 
-Task 2 Feature Scaling Impact
+  *Task 2 Feature Scaling Impact
 
 Training model without scaling
 
@@ -37,7 +37,7 @@ Comparing results in table
 
 
 
-Task 3 Handling Missing Values
+  *Task 3 Handling Missing Values
 
 Generating dataset using make_regression
 
@@ -53,7 +53,7 @@ Comparing results before and after imputation
 
 
 
-Task 4 Cross-Validation
+  *Task 4 Cross-Validation
 
 Generating dataset with noise (make_regression)
 

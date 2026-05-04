@@ -46,7 +46,9 @@ Calculating standard deviation
 Start
 
 pip install -U scikit-learn
+
 pip install pandas numpy matplotlib
+
 python main.py
 
 _____________________________________________________________

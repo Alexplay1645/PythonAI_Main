@@ -22,6 +22,7 @@ Calculating R² score
 
 Displaying model coefficients in table
 
+
 Task 2 Feature Scaling Impact
 
 Training model without scaling
@@ -33,6 +34,8 @@ Training model with scaling
 Calculating R² for both cases
 
 Comparing results in table
+
+
 
 Task 3 Handling Missing Values
 
@@ -48,6 +51,8 @@ Calculating R² score
 
 Comparing results before and after imputation
 
+
+
 Task 4 Cross-Validation
 
 Generating dataset with noise (make_regression)
@@ -61,6 +66,8 @@ Using cross_val_score (k=5)
 Calculating mean R²
 
 Calculating standard deviation
+
+
 
 Start
 

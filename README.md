@@ -8,7 +8,7 @@ Python AI Homework #13
 
 Pobudov multi-ball perceptron (MLP)
 
-# Task 1 — Data Preparation (MLP)
+# Task 1 — Pobudov multi-ball perceptron (MLP)
 
 - Dataset: Heart Disease UCI  
 - Target: binary risk (low/high)  

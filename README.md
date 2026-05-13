@@ -1,7 +1,103 @@
 
+Python AI Homework #13
 
 
+_____________________________________________________________
 
+Python AI Homework #12
+
+Decision Trees, Ensembles & Classification
+
+Task 1 — Decision Tree Regression
+California Housing dataset
+Features: MedInc, HouseAge, AveRooms, AveBedrms
+Train/Test split (80/20)
+DecisionTreeRegressor(max_depth=4)
+Calculating R² score
+
+Task 2 — Decision Tree vs Random Forest
+DecisionTreeRegressor(max_depth=4)
+RandomForestRegressor(n_estimators=100)
+Test R² comparison
+Results table
+
+Task 3 — Gradient Boosting
+XGBRegressor(n_estimators=200)
+learning_rate=0.1
+max_depth=5
+Comparison with Random Forest
+Test R² evaluation
+
+Task 4 — Classification
+California Housing dataset
+Binary target transformation
+LogisticRegression(max_iter=1000)
+Confusion Matrix
+Accuracy
+Precision
+Recall
+F1-score
+
+Start
+
+- pip install -U scikit-learn
+- pip install pandas numpy matplotlib xgboost
+
+- python main.py
+
+Libraries
+
+- pandas
+- numpy
+- matplotlib
+- scikit-learn
+- xgboost
+
+_____________________________________________________________
+
+Python AI Homework #11
+
+Polynomial Regression & Regularization
+
+Task 1 — Polynomial Regression
+California Housing dataset
+Using feature MedInc
+PolynomialFeatures (degree=2)
+Train/Test split (80/20)
+LinearRegression model
+Calculating R² score
+
+Task 2 — Polynomial Degree Comparison
+Polynomial degrees 1, 2, 3
+Train/Test R² comparison
+Results table
+
+Task 3 — Lasso Regularization
+Features: MedInc, HouseAge, AveRooms, AveBedrms
+LinearRegression
+Lasso(alpha=0.1)
+Test R² comparison
+Zero coefficients analysis
+
+Task 4 — Ridge Regularization
+LinearRegression
+Ridge(alpha=1.0)
+Test R² comparison
+Non-zero coefficients analysis
+
+Start
+
+- pip install -U scikit-learn
+- pip install pandas numpy matplotlib
+
+- python main.py
+
+Libraries
+
+- pandas
+- numpy
+- matplotlib
+- scikit-learn
 _____________________________________________________________
 
 Python AI Homework #10

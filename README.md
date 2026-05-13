@@ -1,7 +1,51 @@
 
 
 
+_____________________________________________________________
 
+Python AI Homework #11
+
+Polynomial Regression & Regularization
+
+Task 1 — Polynomial Regression
+California Housing dataset
+Using feature MedInc
+PolynomialFeatures (degree=2)
+Train/Test split (80/20)
+LinearRegression model
+Calculating R² score
+
+Task 2 — Polynomial Degree Comparison
+Polynomial degrees 1, 2, 3
+Train/Test R² comparison
+Results table
+
+Task 3 — Lasso Regularization
+Features: MedInc, HouseAge, AveRooms, AveBedrms
+LinearRegression
+Lasso(alpha=0.1)
+Test R² comparison
+Zero coefficients analysis
+
+Task 4 — Ridge Regularization
+LinearRegression
+Ridge(alpha=1.0)
+Test R² comparison
+Non-zero coefficients analysis
+
+Start
+
+pip install -U scikit-learn
+pip install pandas numpy matplotlib
+
+python main.py
+
+Libraries
+
+- pandas
+- numpy
+- matplotlib
+- scikit-learn
 _____________________________________________________________
 
 Python AI Homework #10

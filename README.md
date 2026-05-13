@@ -8,13 +8,13 @@ Python AI Homework #13
 
 Pobudov multi-ball perceptron (MLP)
 
-# Task 1 — Decision Tree Regression
+# Task 1 — Data Preparation (MLP)
 
-- Dataset: California Housing  
-- Features: MedInc, HouseAge, AveRooms, AveBedrms  
-- Split: 80/20 (train/test)  
-- Model: DecisionTreeRegressor(max_depth=4)  
-- Metric: R² score (evaluate on test set)
+- Dataset: Heart Disease UCI  
+- Target: binary risk (low/high)  
+- Split: train/test = 80/20 (random_state=42, stratify=y)  
+- Scaling: StandardScaler applied to features  
+- Check: class balance (low vs high risk)
   
 _____________________________________________________________
 

@@ -1,7 +1,21 @@
 
+
+
+
+_____________________________________________________________
+
 Python AI Homework #13
 
+Pobudov multi-ball perceptron (MLP)
 
+# Task 1 — Pobudov multi-ball perceptron (MLP)
+
+- Dataset: Heart Disease UCI  
+- Target: binary risk (low/high)  
+- Split: train/test = 80/20 (random_state=42, stratify=y)  
+- Scaling: StandardScaler applied to features  
+- Check: class balance (low vs high risk)
+  
 _____________________________________________________________
 
 Python AI Homework #12

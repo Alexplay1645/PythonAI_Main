@@ -4,6 +4,22 @@
 
 _____________________________________________________________
 
+Python AI Homework #14
+
+№ Task 1 - Regularization and analysis of model results
+
+- Dataset: Diabetes Dataset
+- Source: sklearn.datasets.load_diabetes
+- Split: train/test = 80/20
+- random_state = 42
+- Scaling: StandardScaler applied to features
+- Check:
+- train data shape
+- test data shape
+- scaled feature matrices
+
+_____________________________________________________________
+
 Python AI Homework #13
 
 Pobudov multi-ball perceptron (MLP)

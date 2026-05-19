@@ -4,6 +4,22 @@
 
 _____________________________________________________________
 
+Python AI Homework #14
+
+№ Task 1 - Regularization and analysis of model results
+
+- Dataset: Diabetes Dataset
+- Source: sklearn.datasets.load_diabetes
+- Split: train/test = 80/20
+- random_state = 42
+- Scaling: StandardScaler applied to features
+- Check:
+- train data shape
+- test data shape
+- scaled feature matrices
+
+_____________________________________________________________
+
 Python AI Homework #13
 
 Pobudov multi-ball perceptron (MLP)
@@ -15,7 +31,45 @@ Pobudov multi-ball perceptron (MLP)
 - Split: train/test = 80/20 (random_state=42, stratify=y)  
 - Scaling: StandardScaler applied to features  
 - Check: class balance (low vs high risk)
-  
+
+# Task 2 — Build MLP Architecture
+
+- Input layer: number of neurons = number of features
+- Hidden Layer 1:
+- 16 neurons
+- ReLU activation
+- Hidden Layer 2:
+- 8 neurons
+- ReLU activation
+- Output Layer:
+- 1 neuron
+- Sigmoid activation
+- Framework: torch.nn.Sequential
+
+# Task 3 — Train the Model
+
+- Loss Function: BCELoss
+- Optimizer: Adam (lr = 0.001)
+- Epochs: 30
+- Display after each epoch:
+- Loss
+- Accuracy
+- Final Metrics:
+- Final Loss
+- Final Accuracy
+
+# Task 4 — Visualize Results
+
+- Plot Loss over epochs
+- Plot Accuracy over epochs
+- Add:
+- axis labels
+- legends
+- Save figures as:
+- loss_healthrisk_mlp.png
+- accuracy_healthrisk_mlp.png
+- Final conclusion:
+- evaluate whether model quality improves during training
 _____________________________________________________________
 
 Python AI Homework #12

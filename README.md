@@ -6,7 +6,7 @@ _____________________________________________________________
 
 Python AI Homework #14
 
-№ Task 1 - Regularization and analysis of model results
+# Task 1 - Regularization and analysis of model results
 
 - Dataset: Diabetes Dataset
 - Source: sklearn.datasets.load_diabetes
@@ -17,6 +17,37 @@ Python AI Homework #14
 - train data shape
 - test data shape
 - scaled feature matrices
+
+# Task 2 — Build MLP Regression Model
+
+- Input layer = number of features
+- Hidden layers:
+- 64 neurons + ReLU
+- 32 neurons + ReLU
+- 16 neurons + ReLU
+Output layer:
+- 1 neuron (no activation)
+- Loss Function: MSELoss
+- Optimizer: Adam (lr = 0.001)
+- Epochs: 50
+
+# Task 3 — Regularization Comparison
+Trained two models:
+- without regularization
+- with L2 regularization (weight_decay = 1e-4)
+Evaluated:
+- MAE
+- R² Score
+- Compared model performance in a results table
+
+# Task 4 — Result Analysis
+Built scatter plot:
+- real values vs predicted values
+- Added diagonal line y = x
+- Added axis labels and title
+Saved figure:
+- diabetes_healthrisk_analysis.png
+- Analyzed effect of regularization on model quality
 
 _____________________________________________________________
 

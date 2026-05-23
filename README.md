@@ -1,7 +1,91 @@
 
 
 
+_____________________________________________________________
 
+# Python AI Homework #15
+
+Batch Normalization And CNN Training Stability
+
+## Task 1 — CNN Modification With BatchNorm And Dropout
+
+Dataset: FashionMNIST  
+Source: torchvision.datasets.FashionMNIST  
+
+Applied:
+- BatchNorm2d after each Conv2d layer
+- ReLU activation
+- Dropout(p = 0.3)
+- MaxPooling layers
+
+Training:
+- Optimizer: Adam
+- Loss Function: CrossEntropyLoss
+- Epochs: 10
+- Batch Size: 64
+
+Architecture:
+- Conv2d → BatchNorm2d → ReLU → Dropout
+- Conv2d → BatchNorm2d → ReLU → Dropout
+- Fully Connected Layers
+
+## Task 2 — Gradient Clipping
+
+Applied gradient clipping:
+- torch.nn.utils.clip_grad_norm_
+- max_norm = 1.0
+
+Tracked:
+- training loss for each epoch
+- learning stability during training
+
+Built:
+- loss history visualization by epochs
+
+## Task 3 — Model Comparison
+
+Compared two CNN models:
+
+1. Base CNN model
+   - without normalization
+   - without dropout
+
+2. Improved CNN model
+   - BatchNorm2d
+   - Dropout(p = 0.3)
+
+Built comparison graph:
+- loss per epoch
+- training stability comparison
+
+## Task 4 — Results Table
+
+Created comparison table with:
+- model configuration
+- accuracy
+- loss
+- notes about stability
+
+Compared:
+- Base CNN
+- BatchNorm + Dropout CNN
+
+## Technologies Used
+
+- Python
+- PyTorch
+- Torchvision
+- Matplotlib
+- Pandas
+
+## Result
+
+The improved CNN model with BatchNorm and Dropout demonstrated:
+- more stable training
+- lower loss values
+- better generalization
+- improved accuracy
+- reduced overfitting
 _____________________________________________________________
 
 Python AI Homework #14

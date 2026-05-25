@@ -3,6 +3,126 @@
 
 _____________________________________________________________
 
+# Python AI Homework #16
+CNN architectures and transfer learning
+
+Pneumonia Detection Using Chest X-Ray Images
+
+## Task 1 — Dataset Preparation
+
+Dataset: Chest X-Ray Pneumonia  
+Source: Chest X-Ray Images (Pneumonia)
+
+Applied:
+- Image loading
+- Resize to 224×224
+- Normalization using ImageNet statistics
+- Train/Test dataset preparation
+- DataLoader creation
+
+Transforms:
+- Resize((224, 224))
+- ToTensor()
+- Normalize(mean=[0.485, 0.456, 0.406],
+            std=[0.229, 0.224, 0.225])
+
+Dataset Structure:
+- NORMAL
+- PNEUMONIA
+
+## Task 2 — Transfer Learning With ResNet18
+
+Pretrained Model:
+- ResNet18
+
+Applied:
+- Loaded pretrained weights
+- Frozen convolutional layers
+- Replaced final classifier
+
+New Classifier:
+- Linear(512, 2)
+
+Training Configuration:
+- Loss Function: CrossEntropyLoss
+- Optimizer: Adam
+- Learning Rate: 0.0001
+- Epochs: 5
+- Batch Size: 32
+
+Training Process:
+- Forward propagation
+- Loss calculation
+- Backpropagation
+- Weight updates
+- Accuracy tracking
+
+## Task 3 — Model Evaluation
+
+Calculated Metrics:
+- Accuracy
+- Precision
+- Recall
+- F1-score
+
+Built:
+- Confusion Matrix
+
+Evaluation:
+- Tested on unseen chest X-ray images
+- Compared predicted and actual classes
+
+Model Saving:
+- pneumonia_resnet18.pth
+
+## Task 4 — Prediction Visualization
+
+Displayed:
+- 8 random images from the test dataset
+
+For each image:
+- Predicted class
+- Actual class
+
+Classes:
+- NORMAL
+- PNEUMONIA
+
+Saved Visualization:
+- pneumonia_predictions.png
+
+## Technologies Used
+
+- Python
+- PyTorch
+- Torchvision
+- NumPy
+- Matplotlib
+- Scikit-learn
+- Seaborn
+
+## Result
+
+A pneumonia detection model was developed using transfer learning with ResNet18.
+
+The model successfully classified chest X-ray images into:
+- NORMAL
+- PNEUMONIA
+
+The evaluation included:
+- Accuracy
+- Precision
+- Recall
+- F1-score
+- Confusion Matrix
+
+Results demonstrate that transfer learning significantly improves performance while reducing training time.
+
+The model can be considered a strong prototype for automated pneumonia screening,
+although additional validation and testing on larger medical datasets would be required before real-world clinical deployment.
+
+_____________________________________________________________
+
 # Python AI Homework #15
 
 Batch Normalization And CNN Training Stability

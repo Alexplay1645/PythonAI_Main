@@ -1,6 +1,144 @@
 
 
 
+
+_____________________________________________________________
+
+# Python AI Homework #17
+
+Text Cleaning And Customer Feedback Analysis
+
+Customer Review Processing Using NLP
+
+## Task 1 — Data Preparation
+
+Dataset:
+
+* Customer Reviews Dataset
+
+Source:
+
+* Custom CSV file with 15 customer reviews
+
+Applied:
+
+* CSV file creation
+* Data loading using pandas
+* Text preprocessing
+* Lowercase conversion
+* Removal of special characters
+* Removal of numeric values
+
+Analysis:
+
+* Number of reviews calculation
+* Average review length calculation
+
+Output:
+
+* customer_feedback.csv
+
+## Task 2 — Tokenization And Stopword Removal
+
+Applied:
+
+* Tokenization using nltk.word_tokenize
+* Stopword removal using nltk.corpus.stopwords
+* Removal of tokens shorter than 3 characters
+
+Processed:
+
+* Original review texts
+* Cleaned review texts
+
+Calculated:
+
+* Total number of tokens before cleaning
+* Total number of tokens after cleaning
+
+Result:
+
+* Filtered token lists for further analysis
+
+## Task 3 — Word Frequency Analysis
+
+Applied:
+
+* Word frequency counting using collections.Counter
+
+Generated:
+
+* Frequency dictionary
+
+Displayed:
+
+* Top 15 most frequent words
+* Corresponding word counts
+
+Visualization:
+
+* Horizontal bar chart
+
+Chart Details:
+
+* X-axis: Frequency
+* Y-axis: Word
+* Title: Top 15 Frequent Words
+
+Saved File:
+
+* feedback_word_freq.png
+
+## Task 4 — Bigram Analysis
+
+Applied:
+
+* Bigram generation using nltk.bigrams
+* Bigram frequency calculation
+
+Generated:
+
+* Top 10 most frequent bigrams
+
+Output Table:
+
+* Bigram
+* Frequency
+
+Saved File:
+
+* feedback_bigrams.csv
+
+## Technologies Used
+
+* Python
+* Pandas
+* NLTK
+* Collections
+* Matplotlib
+* NumPy
+
+## Result
+
+A complete NLP pipeline for customer feedback analysis was developed.
+
+The project successfully:
+
+* Loaded and cleaned customer reviews
+* Performed tokenization
+* Removed stopwords and noise
+* Analyzed word frequencies
+* Visualized the most common terms
+* Generated and analyzed bigrams
+
+The final outputs include:
+
+* Cleaned review dataset
+* Word frequency visualization
+* Bigram frequency table
+
+This workflow provides a solid foundation for automated customer feedback analysis and can be extended for sentiment analysis, topic modeling, and advanced NLP applications.
+
 _____________________________________________________________
 
 # Python AI Homework #16

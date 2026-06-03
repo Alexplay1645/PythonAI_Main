@@ -1,5 +1,160 @@
 
+# Python AI Homework #18 (FinalProject)
 
+Word Vectorization And Semantic Representation
+
+Semantic Analysis Of Customer Reviews Using Word2Vec
+
+## Task 1 — Data Preparation
+
+Dataset:
+
+* Customer Reviews Dataset
+
+Source:
+
+* Customer review texts from previous practical work
+
+Applied:
+
+* Data loading using pandas
+* Text cleaning and preprocessing
+* Lowercase conversion
+* Removal of punctuation
+* Tokenization using NLTK
+* Stopword removal
+
+Generated:
+
+* Tokenized sentences
+* List of processed words for model training
+
+Output:
+
+* Cleaned and tokenized text corpus
+
+## Task 2 — Word2Vec Training And Semantic Similarity
+
+Applied:
+
+* Word2Vec model training using gensim
+
+Parameters:
+
+* vector_size = 100
+* window = 5
+* min_count = 2
+* sg = 1
+
+Processed:
+
+* Tokenized customer reviews
+
+Analysis:
+
+* Semantic similarity calculation
+* Identification of related words
+
+Generated:
+
+* Top 5 similar words for each keyword
+* Cosine similarity scores
+
+Output Table:
+
+* Keyword
+* Similar Words
+* Cosine Similarity
+
+Saved File:
+
+* word_similarity_results.csv
+
+## Task 3 — Word Embedding Clustering
+
+Applied:
+
+* Extraction of word vectors from Word2Vec
+* KMeans clustering
+
+Parameters:
+
+* n_clusters = 5
+* random_state = 42
+
+Generated:
+
+* Cluster assignments for all words
+
+Displayed:
+
+* 10 representative words from each cluster
+
+Analysis:
+
+* Identification of semantic groups
+* Topic interpretation for customer feedback
+
+Output:
+
+* Clustered vocabulary groups
+
+## Task 4 — Semantic Cluster Visualization
+
+Applied:
+
+* Dimensionality reduction using PCA
+* 2D projection of word embeddings
+
+Visualization:
+
+* Scatter plot of word vectors
+* Cluster coloring
+* Word labels
+* Cluster legend
+
+Chart Details:
+
+* X-axis: PCA Component 1
+* Y-axis: PCA Component 2
+* Title: Semantic Word Clusters
+
+Saved File:
+
+* semantic_clusters.png
+
+## Technologies Used
+
+* Python
+* Pandas
+* NLTK
+* Gensim
+* NumPy
+* Scikit-learn
+* Matplotlib
+
+## Result
+
+A complete semantic text analysis pipeline was developed using Word2Vec and clustering techniques.
+
+The project successfully:
+
+* Prepared and cleaned customer review texts
+* Performed tokenization and stopword removal
+* Trained a Word2Vec embedding model
+* Identified semantically related words
+* Calculated cosine similarities
+* Clustered word embeddings using KMeans
+* Visualized semantic relationships with PCA
+
+The final outputs include:
+
+* Tokenized review corpus
+* Word similarity analysis table
+* Semantic word clusters
+* PCA visualization of word embeddings
+
+This project demonstrates how vector representations can reveal hidden semantic relationships in customer reviews and provides a foundation for advanced NLP tasks such as recommendation systems, sentiment analysis, topic modeling, and semantic search.
 
 
 _____________________________________________________________
